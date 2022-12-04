@@ -102,6 +102,14 @@ QString	bandplanFile	= QDir::homePath ();
 #endif
 	QApplication a (argc, argv);
 
+#if 0
+  static const QString styleSheet =
+    #include "./stylesheets/Adaptic.qss"
+    //#include "./stylesheets/Combinear.qss"
+  ;
+  a.setStyleSheet(styleSheet);
+#endif
+
 	ISettings	= new QSettings (iniFile, QSettings::IniFormat);
 /*
  *	Before we connect control to the gui, we have to
