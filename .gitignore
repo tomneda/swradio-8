@@ -4,6 +4,4 @@ build
 linux-bin
 Makefile
 .qmake.stash 
-
-
-
+/swradio-8.pro.user
