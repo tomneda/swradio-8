@@ -5,3 +5,7 @@ linux-bin
 Makefile
 .qmake.stash 
 /swradio-8.pro.user
+/.idea
+/cmake-build-debug
+/cmake-build-release
+
